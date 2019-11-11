@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contacts </title>
+  </head>
+  <body>
+    <h1> My contacts</h1>
+    <p>Random Adress</p>
+    <p>Fake phone nr huh?</p>
+    <p>Not existing Email</p>
+
+    <form action="mailto:info@randomfakesite.com" method="post" enctype="text/plain">
+      <label for="">Name:</label>
+      <input type="text" name="" value="">
+      <input type="checkbox" name="yourName" value="">
+      <input type="submit" name=""></br>
+      <label for="">Password</label>
+      <input type="password" name="type password" value="">
+      <input type="submit" name=""></br>
+      <label>calendar</label>
+      <input type="date" name="" value=""><hr>
+
+      <label for="">Email:</label>
+      <input type="email" name="" value=""></br>
+      <label for="">Message:</label><br>
+      <textarea name="name" rows="8" cols="80"></textarea><br>
+      <input type="submit" name=""><br>
+      <hr>
+    </form>
+  </body>
+</html>
